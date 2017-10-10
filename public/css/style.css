@@ -91,6 +91,37 @@ footer{
 }
 
 /** Subscribe**/
+.subscribe_panel{
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.subscribe_panel h3{
+    font-family: 'Fjalla One';
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.subscribe_panel input {
+    border-radius: 10px;
+    border:1px solid #ddd;
+    text-align:center;
+    font-size:23px;
+    padding:10px;
+    margin:10px 0;
+}
+
+.subscribe_panel input:focus{
+    outline-width:0
+}
+
+.subscribe_panel small{
+    font-size:15px;
+    line-height:0px;
+}
+
 .subscribe_panel .error,
 .subscribe_panel .success
 {
