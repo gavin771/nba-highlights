@@ -85,38 +85,26 @@
       }
     ]
   },
-  "subcriptions": [
+  "subscriptions": [
     {
-      "email": "fer@gmail.com",
+      "email": "hello@qw.com",
       "id": 1
     },
     {
-      "email": "dddd@gmail.com",
+      "email": "hiya@qwek.com",
       "id": 2
     },
     {
-      "email": "fernando@gmail.com",
+      "email": "gav@123.com",
       "id": 3
     },
     {
-      "email": "dddd@gmail.com",
+      "email": "hu@qwe.com",
       "id": 4
     },
     {
-      "email": "fernando@gmail.como",
+      "email": "hi@jsdk#.cdo",
       "id": 5
-    },
-    {
-      "email": "fernando@gmail.com",
-      "id": 6
-    },
-    {
-      "email": "email@email.com",
-      "id": 7
-    },
-    {
-      "email": "fernando@gmail.com",
-      "id": 8
     }
   ],
   "teams": [

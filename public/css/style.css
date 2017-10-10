@@ -89,3 +89,20 @@ footer{
     font-size: 70px;
     margin-top:0px;
 }
+
+/** Subscribe**/
+.subscribe_panel .error,
+.subscribe_panel .success
+{
+    display: none;
+}
+
+.subscribe_panel .error.show{
+    display: block;
+    color: #f44336
+}
+
+.subscribe_panel .success.show{
+    display: block;
+    color: #43af50;
+}
