@@ -137,3 +137,90 @@ footer{
     display: block;
     color: #43af50;
 }
+
+/** Blocks **/
+.home_blocks{
+    display: -ms-flex;
+    display: -webkit-box-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.home_blocks .item{
+    flex-grow:1;
+    position:relative;
+    height: 270px;
+    overflow:hidden;
+}
+
+.home_blocks .item.lg{
+    width: 50%
+}
+
+.home_blocks .item.md{
+    width: 30%
+}
+
+.home_blocks .item.sm{
+    width: 20%
+}
+
+.home_blocks .item .image{
+    height: 270px;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.home_blocks .item .title{
+    background: #000;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.home_blocks .item:hover .title{
+    transform: translate(0px, -30px);
+    transition: all 500ms ease-in-out;
+}
+
+.home_blocks .item .title a{
+    color: #fff;
+}
+
+
+.home_blocks .item.lg{
+    animation-delay:200ms;
+    -webkit-animation-delay: 200ms;
+    -ms-animation-delay:200ms;
+    -moz-animation-delay:200ms;
+}
+
+.home_blocks .item.md{
+    animation-delay:500ms;
+    -webkit-animation-delay: 500ms;
+    -ms-animation-delay:500ms;
+    -moz-animation-delay:500ms;
+}
+
+.home_blocks .item.sm{
+    animation-delay:800ms;
+    -webkit-animation-delay: 800ms;
+    -ms-animation-delay:800ms;
+    -moz-animation-delay:800ms;
+}
+
+.home_blocks .item .veil{
+    background: #000;
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+    top:0;
+    position: absolute;
+    transition:all 50ms ease-in-out;
+}
+
+.home_blocks .item:hover .veil{
+    opacity:0;
+    transition:all 50ms ease-in-out;
+}
