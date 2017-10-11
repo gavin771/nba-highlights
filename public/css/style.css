@@ -235,7 +235,7 @@ footer{
 .poll_container{
     display:-ms-flex;
     display:-webkit-flex;
-    display:-flex;
+    display:flex;
 }
 
 .poll_container .poll_item{
@@ -250,4 +250,67 @@ footer{
 .poll_container .poll_item div{
     font-family: 'Fjalla One', sans-serif;
     font-size:18px;
+}
+
+/** Teams **/
+.teams_component{
+    min-height: 800px;
+}
+
+.teams_input{
+    text-align:center;
+    padding: 20px 0;
+    background:#e6e6e6;
+}
+
+.teams_input input{
+    font-family: 'Roboto';
+    border-radius:30px;
+    border: 1px solid lightgray;
+    color:#000;
+    font-size:20px;
+    padding:10px;
+    font-weight:300;
+    text-align:center;
+}
+
+.teams_input input:focus{
+    outline:none;
+}
+
+.teams_container div{
+    display:-ms-flex;
+    display:-webkit-flex;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.teams_container .team_item{
+    width:25%;
+    padding:30px;
+    box-sizing:border-box;
+}
+
+.teams_container .team_item img{
+    width:100%;
+}
+
+/** Fade **/
+.fade-enter{
+    opacity:0.01;
+}
+
+.fade-enter.fade-enter-active{
+    opacity: 1;
+    transition:opacity .5s ease-in
+}
+
+.fade-exit{
+    opacity:1
+}
+
+.fade-exit.fade-exit-active{
+    opacity: 1;
+    transition:opacity .5s ease-in
 }
